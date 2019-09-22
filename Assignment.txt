@@ -1,0 +1,5 @@
+Backup Service generates 2 backups per day and stores them on a disk. Design and implement
+ service, which would conform to the following retention policy:
+-keep 1 backup older than 2 weeks,
+-keep no more than 4 backups older than 1 week,
+-keep no more than 4 backups older than 3 days
